@@ -9,4 +9,3 @@ edition = "2021"
 cortex-m = "0.7"
 cortex-m-rt = "0.7"
 embedded-hal = "1.0.0"
-rp2040-hal = { version = "0.10.0", features = ["rt", "critical-section-impl"] }
