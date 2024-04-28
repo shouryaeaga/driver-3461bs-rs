@@ -1,7 +1,7 @@
 [package]
 name = "driver-3461bs-rs"
 description = "Driver for 3461BS LED driver"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["Shourya Eaga"]
 readme = "./README.md"
