@@ -1,5 +1,6 @@
-use embedded_hal::digital::{InputPin, OutputPin, PinState};
+use embedded_hal::digital::v2::{OutputPin, PinState};
 use core::fmt::Debug;
+use embedded_hal::digital::v2::InputPin;
 
 #[derive(Debug)]
 pub enum Error<E> {
@@ -250,4 +251,3 @@ where
         Ok(())
     }
 }
-
