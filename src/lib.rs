@@ -246,7 +246,15 @@ where
                 self.dp.set_high().unwrap();
             }
             _ => {
-                // Do nothing
+                // Set everything high
+                self.a.set_high().unwrap();
+                self.b.set_high().unwrap();
+                self.c.set_high().unwrap();
+                self.d.set_high().unwrap();
+                self.e.set_high().unwrap();
+                self.f.set_high().unwrap();
+                self.g.set_high().unwrap();
+                self.dp.set_high().unwrap();
             }
         }
 
