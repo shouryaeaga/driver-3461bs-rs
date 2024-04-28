@@ -1,3 +1,5 @@
+#![cfg_attr(not(test), no_std)]
+
 use embedded_hal::digital::v2::{OutputPin, PinState};
 use core::fmt::Debug;
 use embedded_hal::digital::v2::InputPin;
