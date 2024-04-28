@@ -40,16 +40,14 @@ loop {
 	led_display.set_number_on_digit('2', '3').unwrap();
 	delay.delay_ms(5);
 	led_display.clear();
-	led_display.set_number_on_digit('2', '4').unwrap();
-	delay.delay_ms(5);
-	led_display.clear();
-	led_display.set_number_on_digit('2', '5').unwrap();
+	led_display.set_number_on_digit('3', '4').unwrap();
 	delay.delay_ms(5);
 	led_display.clear();
 	// To set a custom character, first parameter should be the digit you want it to be on
 	// The next parameters are segments a-g
 	// The last parameter is the decimal point
 	// Look at the pinout of the 3461BS1
+	// This is a custom C character
 	led_display
 	.set_custom_character('4', true, false, false, true, true, true, false, false)
 	.unwrap();
