@@ -1,10 +1,10 @@
 [package]
-name = "driver-3461-rs"
+name = "driver-3461bs-rs"
 version = "0.1.0"
 edition = "2021"
 authors = ["Shourya Eaga"]
 readme = "./README.md"
-repository = "https://github.com/shouryaeaga/driver-3461-rs"
+repository = "https://github.com/shouryaeaga/driver-3461bs-rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
